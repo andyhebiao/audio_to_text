@@ -1,2 +1,8 @@
 # AudioToText
-Record Audio, use xunfei api turn into text
+
+用于UE数字人语音聊天。
+
+1. 按下录音键开始录音，释放录音键，停止录音。
+2. 调用讯飞STT
+3. 发送至GPT，获取答案。
+4. 将文本答案发送至UE内部UDP接受模块。
